@@ -18,18 +18,20 @@ Simple guides for using CyberClass platform.
 3. Βρείτε το δωμάτιο με το όνομα σας και πατήστε `Αρχή`. Η συνεδρία σας έχει ξεκινήσει.
 4. Το δωμάτιο είναι πλέον ανοιχτό για τους μαθητές. Κάθε φορά που κάποιος μαθητής ζητάει να συμμετάσχει στο μάθημα προστίθεται στην καρτέλα `Waiting Users`. Πρέπει να τον αποδεχθείτε.
 
-Σημείωση: Αν αντιμετωπίζετε κάποιο πρόβλημα με τον ήχο, παρακαλώ δείτε τον αντίστοιχο [οδηγό](#sound) μας.
+<span style="color:orange">Σημείωση: </span>
+Αν αντιμετωπίζετε κάποιο πρόβλημα με τον ήχο, παρακαλώ δείτε τον αντίστοιχο [οδηγό](#sound) μας.
 
 ## <a name="student"></a> Student's Guide
 
 ### Join a Session
 
-1. Add `gem "jekyll-remote-theme"` to your `Gemfile` to add the theme as a dependancy
-2. Run the command `bundle install` in the root of project to install the jekyll remote theme gem as a dependancy
-3. Add `jekyll-remote-theme` to the list of `plugins` in your `_config.yml` file
-4. Add `remote_theme: daviddarnes/garth` to your `_config.yml` file to set the site theme
-5. Run `bundle exec jekyll serve` to build and serve your site
-6. Done! Use the example [`_config.yml`](https://github.com/daviddarnes/garth/blob/master/_config.yml) file to set site-wide options
+1. Την ημέρα του μαθήματος πλοηγηθείται στο σύνδεσμο που σας έχει δώσει το φροντιστήριο σας.
+2. Επιλέξτε τον καθηγητή/τρια με τον οποίον έχετε μάθημα.
+3. Συμπληρώστε το όνομα σας και πατήστε `Join`.
+4. Αναμένετε την έγκριση του καθηγητή/τριας ώστε να μπείτε στην εικονική αίθουσα.
+
+<span style="color:orange">Σημείωση: </span>
+Η πλατφόρμα εκπαίδευσης υποστηρίζεται σε υπολογιστή, κινητό και tablet. Παρακαλώ να βρίσκεστε σε ήσυχο χώρο κατάλληλο για μάθημα. Για τη ρύθμιση του ήχου, δείτε τον [οδηγό](#sound) μας.
 
 
 ## <a name="FAQ"></a> Troubleshooting
@@ -38,6 +40,7 @@ Simple guides for using CyberClass platform.
 Προτείνουμε τη χρήση του [Google Chrome] για καλύτερη εμπειρία χρήσης. Θα χρειαστεί να το εγκαταστήσετε στον υπολογιστή σας αν δεν το διαθέτε ήδη.
 
 ### <a name="sound"></a> Sound check
+Στην αρχή της συνεδρίας η εφαρμογή εκτελεί αυτόματα ένα τεστ ήχου. Όταν συνδεθείτε, στο αυτόματα μήνυμα που θα εμφανιστεί προτιμήστε την επιλογή `μικρόφωνο` ώστε να μπορείτε να συνομιλείτε με τα υπόλοιπα μέλη της συνεδρίας. Αν εμφανιστεί ένα μήνυμα από το πρόγραμμα πλοήγησης σας (browser) πατήστε `allow access`. Εκτελέστε το `echo test`. Αν ακούτε τη φωνή σας, επιλέξτε το <span style="color:green">`πράσινο thumbs up`</span>. Διαφορετικά, ακολουθήστε τα παρακάτω βήματα.
 
 
 [Google Chrome]: https://www.google.com/chrome/
