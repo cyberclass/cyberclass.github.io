@@ -2,23 +2,27 @@
 title: Guides
 ---
 
-A really basic theme for Jekyll, using the official Jekyll theme implementation.
+Simple guides for using CyberClass platform.
 
 - [Quick Demo](https://www.cyberpank.rocks)
-- [Install Garth](https://github.com/daviddarnes/garth#installation)
-- [Tip me $5](https://www.paypal.me/daviddarnes/5usd)
+- [Teacher Guide](#teacher)
+- [Student Guide](#student)
+- [Troubleshooting](#FAQ)
 
-## Server setup
+## <a name="teacher"></a> Teacher's Guide
 
-### As a Jekyll theme
+### Start a Session
 
-1. Add `gem "garth-jekyll-theme"` to your `Gemfile` to add the theme as a dependancy
-2. Run the command `bundle install` in the root of project to install the theme and its dependancies
-3. Add `theme: garth-jekyll-theme` to your `_config.yml` file to set the site theme
-4. Run `bundle exec jekyll serve` to build and serve your site
-5. Done! Use the example [`_config.yml`](https://github.com/daviddarnes/garth/blob/master/_config.yml) file to set site-wide options
+1. Συνδεθείτε μέσω Chrome (ή Safari) στην [πλατφόρμα](https://www.cyberpank.rocks/b) μας εισάγοντας το e-mail και τον κωδικό που σας έχουμε δώσει.
+2. Βεβαιωθείται πως βρίσκεστε στην καρτέλα Home.
+3. Βρείτε το δωμάτιο με το όνομα σας και πατήστε `Αρχή`. Η συνεδρία σας έχει ξεκινήσει.
+4. Το δωμάτιο είναι πλέον ανοιχτό για τους μαθητές. Κάθε φορά που κάποιος μαθητής ζητάει να συμμετάσχει στο μάθημα προστίθεται στην καρτέλα `Waiting Users`. Πρέπει να τον αποδεχθείτε.
 
-### As a GitHub Pages remote theme
+Σημείωση: Αν αντιμετωπίζετε κάποιο πρόβλημα με τον ήχο, παρακαλώ δείτε τον αντίστοιχο [οδηγό](#sound) μας.
+
+## <a name="student"></a> Student's Guide
+
+### Join a Session
 
 1. Add `gem "jekyll-remote-theme"` to your `Gemfile` to add the theme as a dependancy
 2. Run the command `bundle install` in the root of project to install the jekyll remote theme gem as a dependancy
@@ -27,13 +31,13 @@ A really basic theme for Jekyll, using the official Jekyll theme implementation.
 5. Run `bundle exec jekyll serve` to build and serve your site
 6. Done! Use the example [`_config.yml`](https://github.com/daviddarnes/garth/blob/master/_config.yml) file to set site-wide options
 
-### As a Boilerplate / Fork
 
-_(deprecated, not recommended)_
+## <a name="FAQ"></a> Troubleshooting
 
-1. [Fork the repo](https://github.com/daviddarnes/garth#fork-destination-box)
-2. Replace the `Gemfile` with one stating all the gems used in your project
-3. Delete the following unnecessary files/folders: `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `LICENSE`, `screenshot.png`, `CNAME` and `garth-jekyll-theme.gemspec`
-4. Run the command `bundle install` in the root of project to install the jekyll remote theme gem as a dependancy
-5. Run `bundle exec jekyll serve` to build and serve your site
-6. Done! Use the example [`_config.yml`](https://github.com/daviddarnes/garth/blob/master/_config.yml) file to set site-wide options
+### Browser
+Προτείνουμε τη χρήση του [Google Chrome] για καλύτερη εμπειρία χρήσης. Θα χρειαστεί να το εγκαταστήσετε στον υπολογιστή σας αν δεν το διαθέτε ήδη.
+
+### <a name="sound"></a> Sound check
+
+
+[Google Chrome]: https://www.google.com/chrome/
