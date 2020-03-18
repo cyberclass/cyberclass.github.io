@@ -24,7 +24,7 @@ plugins:
 - jekyll-paginate
 
 # 3. Gem settings
-paginate: 3 # jekyll-paginate > items per page
+paginate: 10 # jekyll-paginate > items per page
 paginate_path: page:num # jekyll-paginate > blog page
 
 # 4. Jekyll settings
@@ -43,9 +43,9 @@ collections:
     που φέρνει άμεσα σε επαφή καθηγητές και μαθητές μετατρέποντας τα μαθήματα σε
     μια ευχάριστη ψηφιακή συνεδρία." # The post list page content
   guides:
-    title: FAQs # Needed for Siteleaf
+    title: Βοήθεια # Needed for Siteleaf
     output: true
-    description: "Simple guides for using CyberClass platform." # The post list page content
+    description: "Βοήθεια και συχνές ερωτήσεις στη χρήση της πλατφόρμας CyberClass." # The post list page content
 
 # 6. Jekyll collections settings
 defaults:
