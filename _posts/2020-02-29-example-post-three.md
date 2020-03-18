@@ -1,5 +1,5 @@
 ---
-title: Introducing CyberClass
+title: Παρουσιάζοντας το CyberClass
 category: People
 ---
 

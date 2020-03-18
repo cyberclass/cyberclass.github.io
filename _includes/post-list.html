@@ -1,13 +1,23 @@
+{% if page.category == "FAQs" %}
+<ul>
+  <li><a href="https://www.cyberpank.rocks">Quick Demo</a></li>
+  <li><a href="#teacher">Teacher Guide</a></li>
+  <li><a href="#student">Student Guide</a></li>
+  <li><a href="#FAQ">Troubleshooting</a></li>
+</ul>
+{% endif %}
+
 {% if paginator.posts %}
 
   <ul class="list  list--posts">
-    {% for page in paginator.posts %}
+    {% assign grouped-posts = paginator.posts | where: "categories", page.category %}
+    {% for page in grouped-posts %}
       <li class="item  item--post">
         <article class="article  article--post  typeset">
 
           <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
           {% include post-meta.html %}
-          {{ page.excerpt | markdownify | truncatewords: 60 }}
+          {{ page.excerpt | markdownify }}
 
         </article>
       </li>
@@ -18,13 +28,14 @@
 {% else %}
 
   <ul class="list  list--posts">
-    {% for page in site.posts %}
+    {% assign grouped-posts = site.posts |  where: "categories", page.category  %}
+    {% for page in grouped-posts %}
       <li class="item  item--post">
         <article class="article  article--post  typeset">
 
           <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
           {% include post-meta.html %}
-          {{ page.excerpt | markdownify | truncatewords: 60 }}
+          {{ page.excerpt | markdownify  }}
 
         </article>
       </li>

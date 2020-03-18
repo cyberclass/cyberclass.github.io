@@ -42,6 +42,10 @@ collections:
     description: "To CyberClass είναι μια πλήρως διαδραστική διαδυκτιακή αίθουσα
     που φέρνει άμεσα σε επαφή καθηγητές και μαθητές μετατρέποντας τα μαθήματα σε
     μια ευχάριστη ψηφιακή συνεδρία." # The post list page content
+  guides:
+    title: FAQs # Needed for Siteleaf
+    output: true
+    description: "Simple guides for using CyberClass platform." # The post list page content
 
 # 6. Jekyll collections settings
 defaults:
@@ -55,6 +59,12 @@ defaults:
     scope:
       path: ""
       type: posts
+    values:
+      layout: post # Default layout
+  -
+    scope:
+      path: ""
+      type: guides
     values:
       layout: post # Default layout
 
