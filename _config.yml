@@ -24,7 +24,7 @@ plugins:
 - jekyll-paginate
 
 # 3. Gem settings
-paginate: 2 # jekyll-paginate > items per page
+paginate: 3 # jekyll-paginate > items per page
 paginate_path: page:num # jekyll-paginate > blog page
 
 # 4. Jekyll settings
@@ -39,8 +39,9 @@ collections:
   posts:
     title: CyberClass # Needed for Siteleaf
     output: true
-    description: "Με το έργο ανοιχτού κώδικα BigBlueButton,
-    το data center της Digital-Ocean και τη βοήθεια μας έχετε τη δική σας διαδικτυακή τάξη." # The post list page content
+    description: "To CyberClass είναι μια πλήρως διαδραστική διαδυκτιακή αίθουσα
+    που φέρνει άμεσα σε επαφή καθηγητές και μαθητές μετατρέποντας τα μαθήματα σε
+    μια ευχάριστη ψηφιακή συνεδρία." # The post list page content
 
 # 6. Jekyll collections settings
 defaults:
@@ -56,6 +57,8 @@ defaults:
       type: posts
     values:
       layout: post # Default layout
+
+
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right

@@ -36,7 +36,7 @@ body {
 
 .header {
   @include flex(0, 0, auto);
-  background: darken($backgroundColour, 3%);
+  background: #d2dae0;
 }
 
 .logo {
@@ -111,7 +111,7 @@ body {
   }
   &--current {
     a {
-      color: desaturate($linkColour, 100%);
+      color: desaturate($linkColour, 60%);
     }
   }
 }

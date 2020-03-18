@@ -1,9 +1,10 @@
 ---
-title: What is BigBlueButton?
+title: Introducing CyberClass
 category: People
 ---
 
-Dana Thomas Carvey (born June 2, 1955) is a performer and stand-up comedian known for their work as a cast member on Saturday Night Live and for playing the role of Garth Algar in the Wayne's World films.
+* Ψηφιακη αιθουσα διαδασκαλιας
+* Διαδικτυακος Πινακας
 
 <!-- more -->
 

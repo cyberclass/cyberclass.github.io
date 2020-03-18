@@ -4,11 +4,11 @@ title: Guides
 
 A really basic theme for Jekyll, using the official Jekyll theme implementation.
 
-- [Fork on GitHub](https://github.com/daviddarnes/garth)
+- [Quick Demo](https://www.cyberpank.rocks)
 - [Install Garth](https://github.com/daviddarnes/garth#installation)
 - [Tip me $5](https://www.paypal.me/daviddarnes/5usd)
 
-## Installation
+## Server setup
 
 ### As a Jekyll theme
 
