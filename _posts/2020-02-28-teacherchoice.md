@@ -47,6 +47,7 @@ subject: teacher
 ![alt text](/assets/teacher-choice/img4.png)
 **Τι βλέπει ο μαθητής από το κινητό του εάν έχετε ανοιχτό κάποιο πρόγραμμα τύπου powerpoint**
 ![alt text](/assets/teacher-choice/cellphone.jpg)
+
 3.**Επισύναψη Παρουσίασης**. Πατώντας το κάτω αριστερά σύμβολο (“+”), μπορείτε να δείξετε σε όλη της τάξη μια παρουσίαση που έχετε σε ηλεκτρονική μορφή μέσω της πλατφόρμας.
 ![alt text](/assets/teacher-choice/img5.png)
 4.**Public chat**. Επιλέγοντας το “public chat” στο αριστερό μενού μπορείτε να στείλετε ένα μήνυμα στην ομαδική συνομιλία με τους μαθητές σας.
@@ -58,7 +59,7 @@ subject: teacher
 7.**YouTube video**.Τέλος μπορείτε να μοιραστείτε ένα βίντεο απο το youtube με του μαθητές σας, πατώντας το (“+”) κάτω δεξία και κάνοντας copy-paste τον σύνδεσμο του βίντεο.
 ![alt text](/assets/teacher-choice/img9.png)
 
-![alt text](/assets/teacher-choice/img10.png)
+![alt text](/assets/teacher-choice/image10.png)
 
 <span style="color:orange">Σημείωση: </span>
 Η πλατφόρμα εκπαίδευσης υποστηρίζεται σε υπολογιστή, κινητό και tablet. Παρακαλώ να βρίσκεστε σε ήσυχο χώρο κατάλληλο για μάθημα. Για τη ρύθμιση του ήχου, δείτε τον [οδηγό] μας.
